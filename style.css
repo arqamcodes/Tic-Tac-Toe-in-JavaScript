@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  background-color: #26485e;
+}
+
+.sigmar-regular {
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat-brush-regular {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 100px;
+  /* text-transform: uppercase; */
+}
+
+
+.box {
+  font-family: "Sigmar", sans-serif;
+  font-size: 8vmin;
+  color: rgb(74, 67, 118);
+  
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(43, 43, 43, 0.5)
+  
+}
+.box:hover{
+ 
+
+  width: 17.5vmin;
+  height: 17.5vmin;
+  border-radius: 15px;
+
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+  
+}
+.container {
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.hide{
+  display: none;
+}
+
+
+.background-element {
+  /* Set the background image */
+  background-image: url('/img/Tic\ tac\ toe\ JS\ Bg-01.png');
+  /* Ensure the background image covers the entire element */
+  background-size: cover;
+  /* Center the background image both horizontally and vertically */
+  background-position: center;
+  /* Fix the background image relative to the viewport */
+  background-attachment: fixed;
+  /* Optionally, you can set a background color */
+  background-color: #36265e; /* Replace with your desired background color */
+
+  
+}
+
+/* Optionally, you can set a minimum height to ensure the background image remains visible */
+.background-element {
+  min-height: 100vh; /* Adjust as needed */
+}
+
+.newGame{
+  background-color: #ffffff;
+  color:#36265e;
+  height:  30px;
+  width: 110px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 17px;
+
+}
+.reset-Game{
+  background-color: #ffffff;
+  color:#36265e;
+  height:  30px;
+  width: 110px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 15px;
+
+}
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+.msg{
+  color: white;
+}
+.intro{
+  margin-top: 20px;
+  color: white;
+
+}
+
